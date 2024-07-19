@@ -1,1 +1,36 @@
-null
+{
+ "title": "COOL",
+ "type": "line",
+ "xAxis": {
+  "label": "x轴",
+  "data": {
+   "type": "primitive",
+   "dataType": "number",
+   "data": [
+    1,
+    2,
+    3,
+    4
+   ]
+  }
+ },
+ "yAxis": {
+  "label": "y轴",
+  "dataType": "number"
+ },
+ "series": [
+  {
+   "label": "X1",
+   "source": {
+    "type": "primitive",
+    "dataType": "number",
+    "data": [
+     2,
+     4,
+     6,
+     8
+    ]
+   }
+  }
+ ]
+}
